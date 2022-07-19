@@ -37,7 +37,7 @@ function App() {
         <td>&nbsp;</td>
         <td>React</td>
         <td>&nbsp;</td>
-        <td>Python</td>
+        <td>Python</td> 
         <td>&nbsp;</td>
     </tr>
 </table>
