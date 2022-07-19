@@ -29,10 +29,10 @@ function App() {
         <table className='table' border='1'>
     <tr>
         <td>&nbsp;</td>
-        <td>Java</td>
+        <td>Java</td> 
         <td>&nbsp;</td>
         <td>GitHub</td>
-        <td>&nbsp;</td>
+        <td>&nbsp;</td> 
         <td>MongoDB</td>
         <td>&nbsp;</td>
         <td>React</td>
