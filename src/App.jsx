@@ -6,6 +6,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <div className='foto'>
+        <img className='image' src='./image.jpg' alt='perfil'></img>
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

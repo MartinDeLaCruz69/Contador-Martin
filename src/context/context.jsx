@@ -5,7 +5,6 @@ const initialState = {
 export const GlobalContext = createContext(initialState);
 export const GlobalProvider = ({ children }) => {
     const [state, setState] = useState(initialState);
-
     const add = () => {
         setState((current) => ({ ...current, count: current.count + 1}));
     };
