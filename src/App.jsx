@@ -22,6 +22,9 @@ function App() {
           {t("button")} {count}
         </button>
       </div>
+      <div className='tecnology'>
+        <p>{t("tecno")}</p>
+      </div>
     </div>
   )
 }
