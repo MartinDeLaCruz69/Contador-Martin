@@ -16,8 +16,10 @@ function App() {
       </div>
       <div className='information'>
         <p>{t("information")}</p>
+        <p>{t("information1")}</p>
+        <p>{t("information2")}</p>
       </div>
-      <div className="card">
+      <div className='button'>
         <button onClick={() => setCount((count) => count + 1)}>
           {t("button")} {count}
         </button>
@@ -26,6 +28,7 @@ function App() {
         <p>{t("tecno")}</p>
       </div>
     </div>
+    
   )
 }
 export default App

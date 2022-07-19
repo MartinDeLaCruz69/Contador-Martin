@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 *{
   padding: 0;
   margin: 0;
   color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
 }
 body{
   background-color: black;
@@ -11,7 +13,7 @@ body{
   margin-top: 80px;
   width: 400px;
   height: 400px;
-  margin-left: 1300px;
+  margin-left: 1000px;
 }
 .options{
   user-select: none;
@@ -25,4 +27,48 @@ body{
   background-color: #1B1B1B;
   box-shadow: 0px 0px 2px #ababab;
   border-radius: 0 0 10px 10px;
+  font-family: 'Josefin Sans', sans-serif;
+} 
+.options a{
+  color: #999898;
+}
+.name{
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: left;
+  text-align: justify;
+  position: relative;
+  top: -450px;
+  left: 100px;
+}
+.information{
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: left;
+  text-align: justify;
+  position: relative;
+  top: -400px;
+  left: 100px;
+}
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  top: -350px;
+  left: 100px;
+}
+.tecnology{
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: left;
+  text-align: justify;
+  position: relative;
+  top: -250px;
+  left: 100px;
 }
