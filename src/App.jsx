@@ -1,13 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import Nav from './components/navbar'
+import Navbar from './components/navbar.jsx'
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <Nav/>
+      <Navbar/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

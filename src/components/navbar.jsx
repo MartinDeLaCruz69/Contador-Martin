@@ -1,14 +1,10 @@
 import React from "react";
-
 import { useTranslation } from 'react-i18next';
-
-const Dir = () => {
+const Navbar = () => {
     const { i18n } = useTranslation();
-
     function changeLanguage(language) {
         i18n.changeLanguage(language);
       }
-
     return (
         <nav>
             <div className='options'>
@@ -18,6 +14,5 @@ const Dir = () => {
             </div>
         </nav>
     );
-
 };
-export default Nav;
+export default Navbar;
