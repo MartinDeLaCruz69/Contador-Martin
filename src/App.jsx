@@ -25,7 +25,22 @@ function App() {
         </button>
       </div>
       <div className='tecnology'>
-        <p>{t("tecno")}</p>
+        <p>{t("tecno")}</p>  
+        <table className='table' border='1'>
+    <tr>
+        <td>&nbsp;</td>
+        <td>Java</td>
+        <td>&nbsp;</td>
+        <td>GitHub</td>
+        <td>&nbsp;</td>
+        <td>MongoDB</td>
+        <td>&nbsp;</td>
+        <td>React</td>
+        <td>&nbsp;</td>
+        <td>Python</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
       </div>
     </div>
     
